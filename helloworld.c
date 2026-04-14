@@ -24,7 +24,7 @@ int main(void)
         return 1;
     }
 
-    printf("Which Operation? ");
+    printf("Which Operation (*, /, +, -)? ");
     fflush(stdout);
     scanf(" %c", &symbol);
 
